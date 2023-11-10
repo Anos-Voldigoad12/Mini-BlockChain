@@ -51,7 +51,7 @@ Suppose there's a big and sensitive data that you have but you dont want to keep
 In this case you can create 10 nodes and give 5 of your friends the odd numbered nodes i.e., nodes 1,3,5,7 and 9.
 Whenever you need the entire data you can ask your friends for the nodes, when supplied you can check for the integrity of:
 1. Node 1 using Node 2
-2. Node 3 using Node 4  or 2 
-3. Node 5 using Node 6  or 4
-4. Node 7 using Node 8  or 6
-5. Node 9 using Node 10 or 8
+2. Node 3 using Node 4  
+3. Node 5 using Node 6  
+4. Node 7 using Node 8  
+5. Node 9 using Node 10
