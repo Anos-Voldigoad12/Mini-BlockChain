@@ -1,6 +1,6 @@
 # MINI BLOCKCHAIN #
 ## Goal ##
-The goal of this project is to explore the fundamental concept of blockchain as a data strucure.
+The goal of this project is to explore the fundamental concept of blockchain as a data structure.
 ## Concept ##
 A blockchain is a kind of linked list. The only difference between it and the linked list is that, unlike a linked list, each node in a blockchain stores the hash of its previous node. So as a result if one node gets tampered, the  we can detect that by looking at its next node.
 ## Organization of the Project ##
