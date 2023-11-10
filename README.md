@@ -5,12 +5,12 @@ The goal of this project is to explore the fundamental concept of blockchain as 
 A blockchain is a kind of linked list. The only difference between it and the linked list is that, unlike a linked list, each node in a blockchain stores the hash of its previous node. So as a result if one node gets tampered, the  we can detect that by looking at its next node.
 ## Organization of the Project ##
 1. bins      - Contains all the executable files
- 1. mini_blockchain.out     : Executable for debian linux distros 
+   1. mini_blockchain.out     : Executable for debian linux distros 
 2. lib       - Contains the header files created for this project
- 1. mini_blockchain_lib_i.h : Contains functions used by the driver program to interface with the block chain
- 2. mini_blockchain_lib.h   : Contains functions used by mini_blockchain_lib_i.h 
+   1. mini_blockchain_lib_i.h : Contains functions used by the driver program to interface with the block chain
+   2. mini_blockchain_lib.h   : Contains functions used by mini_blockchain_lib_i.h 
 3. src       - Contains the source code of the driver program
- 1. mini_blockchain_src.c   : Source code for the driver program
+   1. mini_blockchain_src.c   : Source code for the driver program
 4. nodes     - Contains the previously created nodes
 5. last.data - Contains the data of the last node
 ## The block_node Structure ##
